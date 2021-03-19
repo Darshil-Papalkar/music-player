@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #131646;
+}
+
+.player-nav{
+    width: 70%;
+    margin: 3% auto 0;
+}
+
+.music-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid black;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.previous-icon, .menu-icon, .player-heading{
+    text-decoration: none;
+    color: #fff;
+}
+
+.previous-icon:hover, .menu-icon:hover, .player-heading:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+
+.carousel-image-slider{
+    margin: 4% auto;
+    overflow: hidden;
+}
+
+.player-image{
+    overflow: hidden;
+}
+
+.player-img{
+    width: 70%;
+    border-radius: 100%;
+    margin-left: 7%;
+}
+
+.carousel-item.active{
+    display: flex;
+    flex-direction: row;
+}
+
+.track-details{
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    top: 30%;
+    transform: translate(0, 30%);
+}
+
+.track-name, .artist-name, .album-name{
+    color: coral;
+}
+
+.player-buttons{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-control-play-icon{
+    color: ivory;
+    background: none;
+    border: none;
+}
