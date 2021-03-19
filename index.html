@@ -26,6 +26,10 @@
         </div> 
     </section>
 
+    <div class="warning">
+        <marquee behavior="sliding" direction="left">Kindly wait till song loads.</marquee>
+    </div>
+
     <section class="player-section">
         <div class="music-player">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-interval="false">
@@ -33,7 +37,7 @@
                     <div class="carousel-item active row">
                         <div class="player-image col-lg-6" id="2">
                             <img src="./images/music_img1.webp" class="player-img" alt="saude_bazi">
-                            <audio loop>
+                            <audio loop preload="auto">
                                 <source src="./music/SAUDE_BAZI.mp3" type="audio/mp3">
                             </audio>
                         </div>
@@ -54,7 +58,7 @@
                     <div class="carousel-item row">
                         <div class="player-image col-lg-6" id="1">
                             <img src="./images/music_img.webp" class="player-img" alt="tum_jo_aaye">
-                            <audio loop>
+                            <audio loop preload="auto">
                                 <source src="./music/Tum_Jo_Aaye.mp3" type="audio/mp3">
                             </audio>
                         </div>
@@ -75,7 +79,7 @@
                     <div class="carousel-item row">
                         <div class="player-image col-lg-6" id="3">
                             <img src="./images/music_img2.webp" class="player-img" alt="kinna_sona">
-                            <audio loop>
+                            <audio loop preload="auto">
                                 <source src="./music/KINNA_SONA.mp3" type="audio/mp3">
                             </audio>
                         </div>

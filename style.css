@@ -31,9 +31,14 @@ body{
     color: coral;
 }
 
+.warning{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 15px 0;
+}
 
 .carousel-image-slider{
-    margin: 4% auto;
+    margin: 2% auto;
     overflow: hidden;
 }
 
